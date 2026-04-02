@@ -3,10 +3,12 @@ import { faker } from '@faker-js/faker';
 import User from '../models/User';
 import UserApi from '../apis/UserApi';
 import TodoApi from '../apis/todoApi';
-import RegisterPage from '../pages/RegisterPage';
+import RegisterPage from '../Pages/RegisterPage.ts';
 import { Page } from '@playwright/test';
 import NewTodoPage from '../Pages/NewTodoPage.ts';
 import TodoPage from '../Pages/TodoPage.ts';
+
+
 
 
 
